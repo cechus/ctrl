@@ -2,7 +2,7 @@ import Service from "./Service";
 
 export default class CtrlService extends Service {
   constructor() {
-    super("http://192.168.1.9:5000");
+    super(process.env.REACT_APP_API_URL as string);
   }
   async getCategories(body = {}) {
     return await this.post("/v1/category/list", body);
