@@ -1,0 +1,30 @@
+:root {
+  --bg: #222531;
+  --bg-2: #1c1a27;
+  --bg-3: #17151f;
+  --text: #ffffff;
+  --height-header: 45px;
+  --z-index-overlay: 110;
+}
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Barlow", sans-serif;
+  background-color: var(--bg);
+
+  color: var(--text);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}

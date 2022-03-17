@@ -1,0 +1,27 @@
+.title {
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+}
+.itemsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+.backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0 0 0 / 35%);
+  backdrop-filter: blur(3px);
+  z-index: 50;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+}

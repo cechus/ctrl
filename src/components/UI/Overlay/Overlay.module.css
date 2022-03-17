@@ -1,0 +1,17 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(3px);
+  visibility: hidden;
+  opacity: 0;
+  z-index: var(--z-index-overlay);
+  transition: opacity 0.3s;
+}
+.overlayVisible {
+  opacity: 1;
+  visibility: visible;
+}

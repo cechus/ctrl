@@ -1,0 +1,20 @@
+.status {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 12px;
+  border-radius: 30px;
+  margin-top: 3px;
+}
+.statusStart {
+  background: rgba(107, 226, 190, 0.24);
+  color: #50d1aa;
+}
+.statusPause {
+  color: rgba(255, 181, 114, 1);
+  background: rgba(255, 181, 114, 0.2);
+}
+.statusStop {
+  background: rgba(146, 144, 254, 0.2);
+  color: rgba(146, 144, 254, 1);
+}
